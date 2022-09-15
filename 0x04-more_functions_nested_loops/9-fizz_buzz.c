@@ -14,19 +14,19 @@ int main(void)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			printf("\tFizzBuzz");
+			printf(" FizzBuzz");
 		}
 		else if (n % 3 == 0)
 		{
-			printf("\tFizz");
+			printf(" Fizz");
 		}
 		else if (n % 5 == 0)
 		{
-			printf("\tBuzz");
+			printf(" Buzz");
 		}
 		else
 		{
-			printf("\t%d", n)
+			printf(" %d", n)
 		}
 
 	}
