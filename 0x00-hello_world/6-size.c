@@ -1,25 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - Run main function
- *
- * Description: Run printf multiple times to print size of different types
- * Return: Return 0 to exit function
- */
+  * main - Prints the sizeof many var types
+  *
+  * Return: Always 0 (Success)
+  */
 int main(void)
 {
-	int i;
-	char c;
-	long int l;
-	long long int ll;
-	float f;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
-	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
-	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(l));
-	printf("Size of a long long int: %lu byte(s)\n",
-	       (unsigned long)sizeof(ll));
-	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-
+	printf("Size of a char: %d byte(s)\n", sizeof(a));
+	printf("Size of an int: %d byte(s)\n", sizeof(b));
+	printf("Size of a long int: %d byte(s)\n", sizeof(c));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
+	printf("Size of a float: %d byte(s)\n", sizeof(e));
 	return (0);
 }

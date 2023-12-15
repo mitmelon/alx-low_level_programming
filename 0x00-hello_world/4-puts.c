@@ -1,11 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - runs the all the code
- *
- * Description: Run puts and print statement
- * Return: Return 0 to exit function
- */
+  * main - Prints a text
+  *
+  * Return: Always 0 (Success)
+  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
