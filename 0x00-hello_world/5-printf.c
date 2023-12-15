@@ -1,9 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - prints the phrase with proper grammar,
- * but the outcome is a piece of art,
- * Return: 0 if exited properly, non-zero otherwise
+ * main - run the main function
+ *
+ * Description: Runs printf and print statement
+ * Return: Return 0 to exit
  */
 int main(void)
 {
