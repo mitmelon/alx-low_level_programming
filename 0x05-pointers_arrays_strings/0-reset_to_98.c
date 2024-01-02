@@ -5,8 +5,8 @@
  * the pointer points to to 98
  * @n: pointer to the variable to update
  */
-void reset_to_98(int* ptr)
+void reset_to_98(int *ptr)
 {
 	int *n = 98;
-	*n = *ptr; 
+	*n = *ptr;
 }
