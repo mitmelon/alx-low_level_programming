@@ -3,7 +3,7 @@
  * Auth: Adeyeye George
  */
 
-#include "0-main.c"
+#include "lists.h"
 #include <stdio.h>
 
 /**
